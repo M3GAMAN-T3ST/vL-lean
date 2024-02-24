@@ -16,6 +16,6 @@ server_script 'server/*.lua'
 dependencies {
     'qb-core',
     'qb-target',
-    'k5_skillcheck'
+    -- 'k5_skillcheck'
 }
 
