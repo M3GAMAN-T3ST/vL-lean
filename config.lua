@@ -5,14 +5,14 @@ Config.NotifyType = 'qb' -- supports: qb, okok, and k5
 ------------------
 ---- STEALING ----
 
-Config.PoliceJobs = { 'police', 'sheriff' }
-Config.Police = 100 -- chance of a police notification from 0 to 100 
-Config.Dispatch = nil -- the dispatch script you use. supports project sloth ('ps') and quasar ('qs'). nil if no police notis
+Config.PoliceJobs = { 'police', 'lspd', 'bcso', 'sasp', 'sapr' }
+Config.Police = 75 -- chance of a police notification from 0 to 100 
+Config.Dispatch = 'ps' -- the dispatch script you use. supports project sloth ('ps') and quasar ('qs'). nil if no police notis
 
 
 Config.StealLocations = { vector4(-699.42, -2.1, 38.13, 200) }
 -- the w coord in the vector4(x,y,z,w) will determine the rotation of the box. this is w coord is the direction your player is facing.
-Config.Difficulty = 'easy' -- the difficulty of the skillchecks. nil, 'easy', 'normal', 'hard'.  if nil then no skillchecks
+Config.Difficulty = nil -- the difficulty of the skillchecks. nil, 'easy', 'normal', 'hard'.  if nil then no skillchecks
 
 
 Config.StealText = 'Steal Cough Syrup' -- the text for the third eye at StealLocations
